@@ -154,7 +154,7 @@ jobs:
     working_directory: ~/plotly.js
     steps:
       - browser-tools/install-browser-tools: &browser-versions
-          firefox-version: '81.0'
+          firefox-version: '81.0.2'
           install-chrome: false
           install-chromedriver: false
       - attach_workspace:
